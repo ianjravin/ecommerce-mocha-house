@@ -1,0 +1,22 @@
+<br>
+<div class="col-md-8 col-md-offset-2 product-detail">
+  <div class="col-md-6">
+    <img src={{product.image}}>
+  </div>
+  <div class="col-md-6 product-detail-info">
+    <h2>{{product.title}}</h2>
+    <h3>${{product.price}}</h3>
+    <p>
+      {{product.description}}
+    </p>
+    <button class="btn center-block cart-btn" {{action 'addToCart' product}}>Add To Cart</button>
+  </div>
+</div>
+<div class="col-md-8 col-md-offset-2 product-reviews">
+  {{new-review saveReview="saveReview" product=product}}
+</div>
+<div class="col-md-8 col-md-offset-2 product-reviews">
+  {{#each sortedReviews as |review|}}
+    {{review-tile review=review}}
+  {{/each}}
+</div>

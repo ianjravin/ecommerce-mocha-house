@@ -1,0 +1,143 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  background-image: "/assets/img/background.jpg";
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Tenor Sans', sans-serif;
+  letter-spacing: 4px;
+  color: #fff;
+  font-size: 3em;
+}
+
+header {
+  background-color: #000;
+  padding: 30px;
+}
+
+img {
+  width: 300px;
+}
+nav li {
+  display: inline-block;
+  padding: 20px;
+  font-size: 1.3em;
+  text-align: center;
+  margin-top: 7px;
+  margin-bottom: 30px;
+}
+.nav-item {
+  color: #000;
+}
+.nav-item:hover {
+  color: #fff;
+  background-color: #000;
+  padding: 7px;
+}
+
+#title {
+  color: #fff;
+}
+
+#title:hover, .basket:hover {
+  color: #666;
+}
+#title:focus, .nav-item:focus, .basket:focus {
+  text-decoration: none;
+}
+
+#subtitle {
+  text-align: center;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 2px;
+  margin-top: -5px;
+}
+
+.product-tile h3 {
+  margin-top: 0px;
+  margin-bottom: 35px;
+  width: 300px;
+  text-align: center;
+}
+
+img {
+  box-shadow: 3px 3px 5px #333;
+}
+
+.basket {
+  float: right;
+  font-size: 24px;
+  color: #fff;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+.trash, .no-btn {
+  background: transparent;
+  border: none;
+}
+
+.cart-btn {
+  background-color: #000;
+  border: 1px solid #000;
+  color: #fff;
+  width: 75%;
+  padding: 7px 10px;
+}
+
+.cart-btn:hover {
+  border: 1px solid #666;
+  background-color: #666;
+  color: #fff;
+}
+
+.checkout-btn {
+  background-color: #000;
+  border: 1px solid #000;
+  color: #fff;
+  width: 25%;
+  padding: 7px 10px;
+  margin-top: -10px;
+  margin-left: -7px;
+}
+
+.checkout-btn:hover {
+  border: 1px solid #666;
+  background-color: #666;
+  color: #fff;
+}
+
+.product-title {
+  color: #000;
+}
+
+.product-title:hover {
+  color: #666;
+}
+.posted {
+  font-size: 12px;
+  font-style: italic;
+}
+.product-reviews {
+  margin-top: 50px;
+  padding-left: 50px;
+  font-size: 16px;
+}
+
+.about h2 {
+  padding-left: 15px;
+}
+
+.about p {
+  font-size: 18px;
+}
+
+.github {
+  margin-top: 50px;
+}
+
+.purchase-message {
+  margin-left: 450px;
+}
